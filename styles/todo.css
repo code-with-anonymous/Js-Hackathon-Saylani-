@@ -1,0 +1,26 @@
+#output{
+    min-height: 50%;
+}
+#form{
+ margin: auto;
+display: grid;
+width: 60%;
+background:red;
+}
+#btnUpdate,#btnAdd{
+    margin: auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* overflow: hidden; */
+    background-color: #f9f9f983;
+
+}
+main{
+    flex: 1 0 auto;
+}
+#description{
+overflow: hidden;
+}
